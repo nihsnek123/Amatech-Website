@@ -1,0 +1,89 @@
+.top-section {
+  height: 130dvh;
+    
+    @media (max-width: 768px) {
+      height: 510dvh;
+    }
+}
+.title {
+  margin-top: 9rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.title h1 {
+  font-family: arial;
+  font-size: 4rem;
+}
+#navigation {
+  color: grey;
+  margin-bottom: 1rem;
+}
+.main-content {
+  margin: 3rem;
+  text-align: justify;
+    @media (max-width: 768px) {
+      margin: 1rem;
+    }
+    
+}
+.number-emphasis {
+  font-size: 2rem;
+  margin-right: 1rem;
+  margin-left: -2rem;
+    @media (max-width: 768px) {
+    margin-left: 0rem;
+}
+  
+}
+#warning-text {
+  color: red;
+  font-size: 1.5rem;
+}
+#must-text {
+  color: limegreen;
+  font-size: 1.5rem
+}
+#underline-text {
+  text-decoration: underline;
+}
+.remember-container {
+  margin-top: 3rem;
+  background: ghostwhite;
+  border-left: 4px solid steelblue;
+  padding: 10px;
+  border-radius: 10px;
+}
+.youtube-link {
+  background: ghostwhite;
+  border-radius: 15px;
+  margin-top: 5rem;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20rem;
+  margin-right: 20rem;
+  
+    @media (max-width: 768px) {
+      margin-left: 0rem;
+     margin-right: 0rem;
+    }
+  
+}
+.youtube-link p {
+  padding: 10px;
+}
+.youtube-link img {
+    margin-left: 0rem;
+    @media (max-width: 768px) {
+      margin-left: 1.2rem;
+    }
+}
+.youtube-link a {
+  background: steelblue;
+  text-align: center;
+  padding: 5px;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  border-radius: 12px;
+  margin-top: 1rem;
+}

@@ -1,0 +1,29 @@
+.top-section {
+  margin-top: 9rem;
+  height: 160dvh;
+    
+    @media (max-width: 768px) {
+  height: 1050dvh;
+}
+}
+#navigation {
+  color: grey;
+  margin: 1rem;
+} 
+.title {
+  margin: 1rem;
+}
+.title h1 {
+  font-family: arial;
+  font-size: 3rem;
+}
+.main-content {
+  margin: 2rem;
+  text-align: justify;
+}
+.big-font {
+  font-size: 2rem;
+}
+li {
+  margin: 1.5rem;
+}

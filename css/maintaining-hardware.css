@@ -1,0 +1,42 @@
+.top-section {
+  height: 160dvh;
+  margin-top: 9rem;
+    
+    @media (max-width: 768px) {
+      height: 530dvh;
+    }
+}
+#navigation {
+  color: grey;
+  margin-bottom: 1rem;
+}
+.title h1 {
+  font-size: 3rem;
+  font-family: arial;
+}
+.title {
+  margin: 1rem;
+}
+.main-container {
+  margin: 2rem;
+  text-align: justify;
+}
+.big-font {
+  font-size: 2rem;
+}
+.reminder-container {
+  background: ghostwhite;
+  border-left: 6px solid steelblue;
+  padding: 10px;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+.reminder-text {
+  font-size: 3rem;
+  color: green;
+}
+.main-container a {
+  background: steelblue;
+  padding: 5px;
+  border-radius: 10px;
+}

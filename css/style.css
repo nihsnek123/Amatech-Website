@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  scroll-behavior: smooth;
+  display: grid;
+}
+
+
+.navlinks {
+  display: flex;
+  justify-content: center;
+  background-color: steelblue;
+  width: 100%;
+  color: ghostwhite;
+  padding-top: 10px;
+    
+    @media (max-width: 768px) {
+  border-bottom: 0;
+  display: flex;
+}
+}
+
+.navlinks, a {
+  text-decoration: none;
+  color: white;
+  justify-content: space-evenly;
+  margin: 0px 0px 0px 0px;
+  transition: 0.3s;
+}
+#navlinks {
+  transition: 0.3s;
+  background-color: steelblue;
+  display: inline-block;
+  position: relative;
+    @media (max-width: 768px) {
+      display: flex;
+      
+  
+}
+
+}
+#navlinks::before {
+  opacity: 0.3;
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 1.2px;
+  width: 100%;
+  height: 4px;
+  background: white;
+  border: 1px;
+  scale: 0.1;
+  padding-bottom: .5px;
+  transform-origin: left;
+  transition: 0.34s;
+  border-radius: 15px;
+}
+#navlinks:hover::before {
+  opacity: 1;
+  scale: 1.1;
+}
+#navlinks:hover {
+  color: whitesmoke;
+  border-radius: 12px;
+  
+  
+  background: linear-gradient(steelblue, steelblue, lightskyblue);
+}
+.navbar {
+  background: linear-gradient(to bottom left, steelblue, steelblue);
+  width: 100%;
+  margin: 0;
+  position: fixed;
+  z-index: 2;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: steelblue;
+  padding-bottom: 0px;
+  width: 100%;
+}
+#logo {
+  margin-right: auto;
+}
+#htext {
+  font-family: arial;
+  color: ghostwhite;
+  font-size: 3rem;
+  margin-right: auto;
+  margin-left: -5rem;
+}
+footer {
+  color: white;
+  background-color: steelblue;
+  height: 240px;
+  margin-bottom: 0;
+  padding-top: 1rem;
+    @media (max-width: 768px) {
+      height: 340px;
+      margin-top: 5rem;
+    }
+}
+footer a {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  margin-left: 1rem;
+  width: 6rem;
+}
+footer p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 3rem 5rem 3rem;
+  font-size: .9rem;
+  text-align: justify;
+}
+
+
+
+@view-transition {
+  navigation: auto;
+}
+
+::view-transition-group(root) {
+  animation: 1s;
+  animation-timing-function: ease;
+}
+
